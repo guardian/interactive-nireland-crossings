@@ -1,0 +1,46 @@
+@import "mq";
+@import "fonts";
+@import "palette";
+
+// Uncomment for embeds
+//@import "embed";
+// Uncomment for full screen (including immersive article main media)
+//@import "fullscreen";
+
+.element-atom,
+.interactive-atom {
+    margin: 0 !important;
+}
+
+
+body{
+	margin: 0;
+}
+
+.land{
+	fill: #dadada;
+}
+
+.road{
+	fill: none;
+	stroke:#bababa;
+	stroke-width:.5px;
+}
+
+.border{
+	fill:none;
+	stroke: #333;
+	stroke-width:.7px;
+}
+
+.water{
+	fill:white;
+}
+
+.track{
+	fill: none;
+	stroke:red;
+}
+
+#mapbox-container{width:860px; height: 430px; position:relative; display: block; top:0; bottom:0;  padding: 0; margin:0;}
+.geo-map{width:860px; height: 430px; position:absolute; top:0; bottom:0; }
